@@ -77,6 +77,18 @@
         "tilemapTile": true,
         "displayName": "myTile10"
     },
+    "tile13": {
+        "data": "hwQQABAAAAC7u7u7u7u7u3t3u3d3u3e3e7d7t3u3e7d7u3e3u3e7t7t7d7t7d7e7u3d3u3d3d7t7t3d7u7t3t3u7e3t3u7u3e7u7d7e3u7d7d7u7t3d7t7t3d3e7d3e7u3t3t7t3t7t7u3e7e3e7t3u3e7d7t3u3e3e7d3e7d7e7u7u7u7u7uw==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile11"
+    },
+    "tile14": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAA7u7u7gAAAO5ERERE7gAA7kRERETuAOBEREREREQO4ERERERERA7gREREREREDuBEREREREQO4EQRRERERA7gRBFEREREDuBERBFEREQO4EREEURERA4A7kRERETuAADuRERERO4AAADu7u7uAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile12"
+    },
     "level2": {
         "id": "level2",
         "mimeType": "application/mkcd-tilemap",
@@ -109,7 +121,7 @@
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAxNDAwMTAwMDA0MDUwNDA1MDQwNTA2MDYwNDA1MDQwNTA0MDUwNDA1MDQwNTA0MDQwMjAyMDIwMjAyMDIwNzA3MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDgwODAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjFjMWQwZjBmMWQyMTA2MDYwYTA0MDUwNDA1MDQwNTA0MDUwNDA1MDQyMjBlMGUwZTBlMjMwNjA2MGMxYzFkMWQxZDFkMWQxZDFkMWQxZDIxMjIwZDBlMGUwZDIzMDYwNjA5MDExYTEwMTAxMDEwMTAxMDEwMWEyMzIyMGQwZTBlMGQyMzA2MDYwYzAxMTAxMDExMTMxMzEyMTAxMDEwMjMyMjBkMGUwZTBkMjMwNjA2MDkwMTEwMTAxODE5MTkxNzEwMTAxMDIzMjIwZDBlMGUwZDIzMDYwNjBjMDExMDEwMTQxNjE2MTUxMDEwMTAyMzIyMGQwZTBlMGQyMzA2MDYwOTAxMWExMDEwMTAxMDEwMTAxMDFhMjMxZTIwMjAyMDIwMWYwNjA2MGMxZTIwMjAyMDIwMjAyMDIwMjAyMDFmMDUwNDA1MDQwNTA0MDYwNjBiMDQwNTA0MDUwNDA1MDUwNDA1MDQwNTAyMDIwMjAyMDIwMjA3MDcwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjA4MDgwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDMwNTA0MDUwNjA2MDQwNTA0MDUwNDA1MDQwNTA0MDUwNDA1MDQwNTAxMDEwMTAxMDYwNjAxMDExYjFiMDEwMTAxMDEwMTAxMDEwMTAxMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMjIyMjIwMDAwMDAwMDAwMDAwMDIyMjIyMjAwMjAyMjIyMjIyMjIyMjIyMjIyMDAyMDIyMjIyMjIyMjIyMjIyMjIwMDIwMjIyMjIyMjIyMjIyMjIyMjAwMjAyMjIyMjIyMjIyMjIyMjIyMDAyMDIyMjIyMjIyMjIyMjIyMjIwMDIwMjIyMjIyMjIyMjIyMjIyMjAwMjAyMjIyMjIyMjIyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMjIyMDAyMjIyMjIyMjIyMjIyMg==",
+        "data": "MTAxNDAwMTAwMDA0MDUwNDA1MDQwNTA2MDYwNDA1MDQwNTA0MDUwNDA1MDQwNTA0MDQwMjAyMDIwMjAyMDIwNzA3MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDgwODAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjFhMWIwZjBmMWIxZjA2MDYwYTA0MDUwNDA1MDQwNTA0MDUwNDA1MDQyMDBlMGUwZTBlMjEwNjA2MGMxYTFiMWIxYjFiMWIxYjFiMWIxYjFmMjAwZDBlMGUwZDIxMDYwNjA5MDEyMzEwMTAxMDEwMTAxMDEwMjMyMTIwMGQwZTBlMGQyMTA2MDYwYzAxMTAxMDExMTMxMzEyMTAxMDEwMjEyMDBkMGUwZTBkMjEwNjA2MDkwMTEwMTAxODIyMjIxNzEwMTAxMDIxMjAwZDBlMGUwZDIxMDYwNjBjMDExMDEwMTQxNjE2MTUxMDEwMTAyMTIwMGQwZTBlMGQyMTA2MDYwOTAxMjMxMDEwMTAxMDEwMTAxMDIzMjExYzFlMWUxZTFlMWQwNjA2MGMxYzFlMWUxZTFlMWUxZTFlMWUxZTFkMDUwNDA1MDQwNTA0MDYwNjBiMDQwNTA0MDUwNDA1MDUwNDA1MDQwNTAyMDIwMjAyMDIwMjA3MDcwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjA4MDgwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDMwNTA0MDUwNjA2MDQwNTA0MDUwNDA1MDQwNTA0MDUwNDA1MDQwNTAxMDEwMTAxMDYwNjAxMDExOTE5MDEwMTAxMDEwMTAxMDEwMTAxMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMjIyMjIwMDAwMDAwMDAwMDAwMDIyMjIyMjAwMjAyMjIyMjIyMjIyMjIyMjIyMDAyMDIyMjIyMjIyMjIyMjIyMjIwMDIwMjIyMjIyMjIyMjIyMjIyMjAwMjAyMjIyMjIyMjIyMjIyMjIyMDAyMDIyMjIyMjIyMjIyMjIyMjIwMDIwMjIyMjIyMjIyMjIyMjIyMjAwMjAyMjIyMjIyMjIyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMjIyMDAyMjIyMjIyMjIyMjIyMg==",
         "tileset": [
             "myTiles.transparency16",
             "sprites.builtin.forestTiles0",
@@ -136,8 +148,6 @@
             "sprites.castle.tilePath8",
             "sprites.castle.tilePath6",
             "sprites.castle.tilePath4",
-            "sprites.dungeon.collectibleInsignia",
-            "sprites.jewels.jewel3",
             "sprites.dungeon.hazardWater",
             "myTiles.tile1",
             "myTiles.tile3",
@@ -146,7 +156,9 @@
             "myTiles.tile2",
             "myTiles.tile8",
             "myTiles.tile11",
-            "myTiles.tile12"
+            "myTiles.tile12",
+            "myTiles.tile13",
+            "myTiles.tile14"
         ],
         "displayName": "level1"
     },
