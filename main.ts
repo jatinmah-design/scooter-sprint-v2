@@ -150,6 +150,11 @@ tiles.placeOnTile(sptBus, tiles.getTileLocation(17, 0))
 // Start countdown
 info.startCountdown(25)
 
+// Change timer UI colors using the default MakeCode Arcade palette indices
+info.setBackgroundColor(1)  // Index 1: White
+info.setBorderColor(15)     // Index 15: Black (creates a sharp, readable border)
+info.setFontColor(3)        // Index 3: Pink (matches timer text)
+
 // Continuous check for idle state
 game.onUpdate(function () {
     // Check if the sprite has completely stopped moving
