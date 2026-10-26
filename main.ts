@@ -51,23 +51,13 @@ function ChangeDirection(mySprite: Sprite) {
         // Set velocity
         mySprite.vx = 0 - enemyPatrolSpeedFactor
         // Set animation
-        animation.runImageAnimation(
-            sptDog,
-            assets.animation`aniDogLeft`,
-            500,
-            true
-        )
+        animation.runImageAnimation(sptDog, assets.animation`aniDogLeft`, 500, true)
     } else {
         // Enemy moving left, so change to right
         // Set velocity
         mySprite.vx = enemyPatrolSpeedFactor
         // Set animation
-        animation.runImageAnimation(
-            sptDog,
-            assets.animation`aniDogRight`,
-            500,
-            true
-        )
+        animation.runImageAnimation(sptDog, assets.animation`aniDogRight`, 500, true)
     }
 }
 function setRandomDirection(mySprite: Sprite) {
@@ -148,7 +138,7 @@ tiles.placeOnTile(sptDog, tiles.getTileLocation(randint(enemyLeftLimit / 25, ene
 tiles.placeOnTile(sptBus, tiles.getTileLocation(17, 0))
 
 // Start countdown
-info.startCountdown(25)
+info.startCountdown(250)
 
 // Change timer UI colors using the default MakeCode Arcade palette indices
 info.setBackgroundColor(1)  // Index 1: White
@@ -183,9 +173,15 @@ game.onUpdate(function () {
         game.gameOver(false)
     }
 })
-game.onUpdateInterval(5000, function () {
-    sptEnemy = sprites.create(assets.image`DogLeft`, SpriteKind.Enemy)
-    tiles.placeOnRandomTile(sptEnemy, sprites.dungeon.darkGroundSouth)
-    setRandomDirection(sptEnemy)
-    ChangeDirection(sptEnemy)
-})
+
+// Enable this once we've figured out how to make 1 dog patrol normally at random locations
+// game.onUpdateInterval(5000, function () {
+//    sptEnemy = sprites.create(assets.image`DogLeft`, SpriteKind.Enemy)
+//   tiles.placeOnRandomTile(sptEnemy, sprites.dungeon.darkGroundSouth)
+//    setRandomDirection(sptEnemy)
+//    ChangeDirection(sptEnemy)
+//})
+// NEXT: 
+// 1) Make dog appear in random (valid) locations.
+// 2) Spawn dogs.
+// 3) Start varying enemies / obstacles.
